@@ -1,0 +1,20 @@
+:root {
+    --cor-background: #afd5d9;
+    --cor-fonte: #fbffff;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: var(--cor-background);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+    padding: 10%;
+    border-radius: 2vw;
+    color: var(--cor-fonte);
+}
